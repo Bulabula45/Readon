@@ -7,7 +7,8 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
 ## Build Instructions
 
 1. Clone this repository locally using the command `git clone https://github.com/Bulabula45/Readon.git && cd Readon`.
-2. Compile the project using  `make`.
+2. Uncompress reference files  `tar -xzvf hg38REF.tgz`.
+3. Compile the project using  `make`.
 
 
 
