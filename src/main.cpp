@@ -56,7 +56,7 @@ a larger k-mer size will be used by default)
     }
     else
     {
-        kmer_l = 25, kmer_2l = kmer_l * 2;
+        kmer_l = 25;
         interval = 10;
         kmer_2l = kmer_l * 2;
         window_s = kmer_l - interval;
