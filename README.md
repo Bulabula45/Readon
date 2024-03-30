@@ -4,6 +4,7 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
 
 
 
+
 ## Build Instructions and Examples
 
 1. Clone this repository locally using the command `git clone https://github.com/Bulabula45/Readon.git && cd Readon`.
@@ -23,6 +24,8 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
    source ~/.bashrc  # if you are using macOS or if your system is configured to use ~/.bash_profile
    ```
 
+
+
    
 
 ## Usage and options
@@ -41,6 +44,8 @@ Usage: ./readon -i <reads_file> -o <output_file> [-m <mode>] [-k <kmer>] [-s <st
 
 
 
+
+
 ## Downstream Analysis 
 
 We provide two downstream analysis tools. First, you need to uncompress the `analysis_tools.tar.gz` file by `tar -xzvf analysis_tools.tar.gz `, which will yield two files: `NMD_or_Protein_prediction.ipynb` and `visualization.ipynb`.
@@ -50,6 +55,8 @@ We provide two downstream analysis tools. First, you need to uncompress the `ana
  `./analysis_tools/visualization.ipynb` is used for visualizing splicing patterns.
 
 Dependencies include: subprocess, matplotlib, and biopython, which can be easily installed via pip.
+
+
 
 
 
