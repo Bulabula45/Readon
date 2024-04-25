@@ -7,7 +7,7 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
 
 ## Build Instructions and Examples
 
-<<<<<<< HEAD
+
 1. Clone this repository locally using the command `git clone https://github.com/Bulabula45/Readon.git && cd Readon`.
 
 2. Compile the project using  `make`.
@@ -31,7 +31,7 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
    `./readon -i test/example.fa -o test/out`
 
 6. If you want to use readon globally, you can add the directory containing the executable file readon to the environment variable, and then source it. Similarly, you can use `readon -i test/example.fa -o test/test_out` to run the test.
->>>>>>> ad114356306041451401b852f0bf942a5d422d8f
+
 
    ```sh
    export PATH=$PATH:/path/to/readon_directory
