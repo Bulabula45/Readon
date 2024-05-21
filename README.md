@@ -8,18 +8,6 @@ Readon: a novel algorithm to identify readthrough transcripts with long-read seq
 ## Build Instructions and Examples
 
 
-1. Clone this repository locally using the command `git clone https://github.com/Bulabula45/Readon.git && cd Readon`.
-
-2. Compile the project using  `make`.
-
-3. Uncompress reference files using the command `tar -xzvf hg38REF.tar.gz`. Upon extraction, the directory will include transcriptome files grouped by chromosome and strand, along with a geneName file generated to record each gene and its corresponding multiple transcripts. These files serve as the reference for readon's alignment operations(There is also an instruction for building references files of other organisms).
-
-4. You can use the following command to test whether readon can run without any problems and produce the expected output:
-
-   `./readon -i test/example.fa -o test/out`
-
-5. If you want to use readon globally, you can add the directory containing the executable file readon to the environment variable, and then source it. Similarly, you can use `readon -i test/example.fa -o test/test_out` to run the test.
-=======
 1. Clone this repository locally using the command `git clone https://github.com/Bulabula45/Readon.git && cd Readon`. Or `wget https://github.com/Bulabula45/Readon/archive/refs/heads/main.zip && unzip main.zip && cd Readon-main`
 
 3. Compile the project using  `make`.
